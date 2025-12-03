@@ -1,0 +1,64 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, blue,rgb(160, 160, 246));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 1.8rem;
+}
+.input{margin-bottom: 18px;}
+
+input{
+ height: 30px;
+ width: 100%;
+ border-radius: 5%;
+ padding: 20px;
+ border-color: aliceblue;
+}
+input:focus{
+  border-color: aliceblue;
+}
+
+button{
+ width: 50%;
+ border-radius: 5%;
+ border-color: rgb(70, 7, 179);
+ padding: 5px;
+ margin-left: 50px;
+ background-color: white;
+ color: blue;
+ font-weight: bolder;
+}
+button:hover{
+  background-color: blue;
+  color: white;
+}
+
+ header{
+  background: linear-gradient(to left, blue,rgb(160, 160, 246));
+  color: aliceblue;
+  padding: 40px;
+  font-weight: bolder;
+  border-radius: 5%;
+  margin-bottom: 10px;
+ }
+
+ header:hover{
+  background:aliceblue;
+  color: rgb(160, 160, 246);
+ }
+
+ @media (max-width: 450px) {
+    .register {
+        width: 90%;
+        padding: 20px;
+    }}
+
